@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Peptyde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:       #C49A2C;
+      --gold-soft:  #F5EDD4;
+      --text:       #37353E;
+      --muted:      #7C7880;
+      --dim:        #A8A4AC;
+      --line:       #E0E0E4;
+      --surface:    #EEEEEF;
+      --bg:         #FFFFFF;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 0 16px 80px;
+    }
+
+    .header {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 0 40px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 40px;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .logo-pill {
+      background: var(--gold);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 5px 14px;
+      border-radius: 999px;
+    }
+
+    .nav-link {
+      margin-left: auto;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .nav-link:hover { text-decoration: underline; }
+
+    h1 {
+      font-size: clamp(26px, 5vw, 36px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .meta { font-size: 13px; color: var(--muted); font-weight: 500; }
+
+    .content { max-width: 760px; margin: 0 auto; }
+
+    details {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      transition: border-color 0.18s;
+    }
+
+    details[open] {
+      border-color: rgba(196,154,44,0.40);
+      box-shadow: 0 2px 14px rgba(196,154,44,0.08);
+    }
+
+    summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 15px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+      user-select: none;
+      transition: background 0.12s, color 0.12s;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    details[open] summary {
+      color: var(--text);
+      font-weight: 600;
+      background: rgba(196,154,44,0.03);
+    }
+
+    .pip {
+      width: 3px;
+      height: 16px;
+      border-radius: 2px;
+      background: transparent;
+      flex-shrink: 0;
+      transition: background 0.18s;
+    }
+
+    details[open] .pip { background: var(--gold); }
+
+    .chevron {
+      margin-left: auto;
+      font-size: 16px;
+      color: var(--dim);
+      transition: transform 0.18s, color 0.18s;
+      flex-shrink: 0;
+    }
+
+    details[open] .chevron { transform: rotate(90deg); color: var(--gold); }
+
+    .body-text { padding: 0 18px 18px; border-top: 1px solid var(--line); }
+
+    .body-text p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 14px;
+      white-space: pre-wrap;
+    }
+
+    footer {
+      max-width: 760px;
+      margin: 48px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--dim);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      align-items: center;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; font-weight: 600; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 480px) { .header { padding: 32px 0 28px; } }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo-row">
+      <span class="logo-pill">Peptyde</span>
+      <a class="nav-link" href="terms.html">Terms of Service →</a>
+    </div>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Last updated: May 2026</p>
+  </div>
+
+  <div class="content">
+
+    <details open>
+      <summary><span class="pip"></span>1. Overview<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde is owned and operated by Peptyde ("Peptyde," "we," "us," or "our").
+
+This Privacy Policy explains how we collect, use, store, disclose, and protect information when you use Peptyde and its related services.
+
+By creating an account, using the App, or using our services, you agree to this Privacy Policy, which is incorporated into our Terms of Service.
+
+Plain Language Summary:
+• We collect account information, subscription information, device information, and health-related tracking information you enter.
+• We use this information to operate the App, sync your data, provide tracking tools, manage subscriptions, improve the App, maintain security, and respond to support requests.
+• We do not currently sell your personal information or health data.
+• We do not currently share your personal information for targeted advertising.
+• We do not currently use your personal health data to train Peptyde-owned AI models.
+• You may access, correct, export, or delete your data at any time.
+
+This summary is for convenience only. The full Privacy Policy below controls.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>2. Information We Collect<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Account Information
+We may collect your name, email address, authentication provider (Apple or Google), account ID, profile photo URL, and basic account settings. We use this to create and manage your account, authenticate you, sync your data, and provide support.
+
+Onboarding Information
+We may collect information you provide during onboarding, such as goals, preferences, peptide experience, and settings, to personalise your App experience.
+
+User-Entered Tracking Data
+Peptyde may collect health-related tracking data you choose to enter, including:
+• Peptide names and inventory information
+• Dose logs and dose history
+• Injection sites
+• Side effects
+• Hydration entries
+• Notes and reminders
+
+This information is used to provide Peptyde's core tracking, organisation, reminder, history, and personalisation features.
+
+Pep Bot &amp; AI Messages
+If you use Pep Bot or other AI features, your messages and limited session context may be sent to an AI provider to generate a response. We do not currently use Pep Bot messages or personal health data to train Peptyde-owned AI models.
+
+Subscription Information
+Subscriptions are processed by Apple App Store, Google Play Store, and RevenueCat. We may receive subscription status, entitlement status, product identifier, renewal status, and purchase metadata. We do not receive your full payment card information.
+
+Device &amp; Technical Information
+We may collect device type, operating system, app version, crash reports, performance logs, and basic diagnostics to operate and improve the App.
+
+Support Communications
+If you contact Peptyde for support, we may collect the information you choose to include in your message. Please avoid sending unnecessary health information through support requests.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>3. How We Use Your Information<span class="chevron">›</span></summary>
+      <div class="body-text"><p>We use information to:
+• Provide, operate, and maintain Peptyde.
+• Create and authenticate accounts.
+• Sync data across devices.
+• Provide tracking, logging, reminder, and history features.
+• Provide AI features you request.
+• Personalise your experience.
+• Manage subscriptions and entitlements.
+• Send reminders and notifications you enable.
+• Respond to support requests.
+• Improve App functionality and reliability.
+• Debug issues and fix crashes.
+• Understand general usage patterns.
+• Prevent fraud, abuse, and unauthorised access.
+• Enforce our Terms of Service.
+• Comply with legal obligations.
+• Protect the rights, safety, and security of users, Peptyde, and others.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>4. How We Share Information<span class="chevron">›</span></summary>
+      <div class="body-text"><p>We share information only as described in this Privacy Policy.
+
+Service Providers
+We share information with vendors and service providers that help us operate Peptyde. These providers are permitted to process information only to provide services to us.
+
+• Firebase / Google Cloud — authentication, database, storage, crash reporting, and app infrastructure.
+• Google Gemini — Pep Bot and AI features (message text, limited session context).
+• RevenueCat — subscription management (subscription status, purchase metadata).
+• Apple App Store — iOS billing and subscriptions.
+• Google Play Store — Android billing and subscriptions.
+• Support tools / email — customer support (information you choose to send).
+
+Legal &amp; Safety Disclosures
+We may disclose information if required by law, subpoena, court order, or government request, or if we believe it is necessary to protect the rights, safety, or property of Peptyde, our users, or others.
+
+With Your Consent
+We may share information with third parties when you give us explicit consent or direct us to do so.
+
+Business Transfers
+If Peptyde or substantially all of our assets are involved in a merger, acquisition, sale of assets, or similar transaction, your information may be transferred to the acquiring or successor entity as part of that transaction, subject to applicable law and this Privacy Policy.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>5. Health Data<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde may collect health-related tracking data that you choose to enter through the App. This may include peptide information, dose logs, injection sites, side effects, inventory, and hydration.
+
+We use health data to:
+• Provide Peptyde's core tracking features.
+• Help you organise logs, history, inventory, and reminders.
+• Sync your data across devices.
+• Provide AI features you request.
+• Personalise your App experience.
+• Improve App functionality and reliability.
+• Maintain security and prevent misuse.
+• Respond to support requests.
+• Comply with legal obligations.
+
+We do not currently sell consumer health data.
+We do not currently share consumer health data for targeted advertising.
+We do not currently use personal health data to train Peptyde-owned AI models.
+
+If we materially expand how we use or disclose consumer health data, we will update this Privacy Policy and provide any notices, consents, or opt-out mechanisms required by applicable law.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>6. Data Storage &amp; Security<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Your account and tracking data are stored on Firebase / Google Cloud servers. We use reasonable administrative, technical, and organisational safeguards designed to protect your information, including encryption in transit and encryption at rest where supported by our service providers.
+
+No system can guarantee absolute security. If a data breach requires notification under applicable law, we will notify affected users as required.
+
+Subscription status is managed by RevenueCat, Apple, and Google. We do not receive or store your full payment card information.
+
+Analytics and crash reporting are processed by Firebase. We do not intentionally send health entries, dose logs, or sensitive tracking details to third-party analytics providers.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>7. Data Retention &amp; Deletion<span class="chevron">›</span></summary>
+      <div class="body-text"><p>We retain information only as long as reasonably necessary for the purposes described in this Privacy Policy, unless a longer retention period is required or permitted by law.
+
+• Account data: Retained while your account is active.
+• Tracking data: Retained while your account is active, unless deleted by you.
+• Support records: Retained as long as reasonably necessary for support, records, and legal obligations.
+• Crash and performance logs: Retained for a limited period for debugging, then deleted or aggregated.
+• Anonymous, aggregated, or de-identified data: May be retained indefinitely.
+
+Upon account deletion request:
+• Active system data is deleted or deactivated within a reasonable period (generally within 30 days).
+• Backup copies may persist for a limited period before being overwritten.
+• Some information may be retained for legal, security, fraud-prevention, dispute-resolution, or compliance purposes.
+• Data already processed by third-party service providers may remain subject to their own retention schedules.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>8. Your Privacy Rights<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Depending on where you live, you may have rights to:
+• Access your information.
+• Correct inaccurate information.
+• Delete your information.
+• Export your information.
+• Withdraw consent.
+• Opt out of sale or sharing of personal information where applicable.
+• Limit the use of sensitive personal information where applicable.
+• Appeal a denied privacy request.
+
+You can manage many choices in the App, including deleting or editing tracking data, disabling AI features, and managing notifications.
+
+For account deletion or privacy requests, contact us at: support@peptyde.app
+
+We will respond to verified requests within the time required by applicable law. We may verify your identity before processing a request.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>9. Third-Party Services<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde integrates with or depends on third-party services. This Privacy Policy does not apply to third-party services. We are not responsible for the privacy practices, content, or policies of third parties.
+
+We encourage you to review the privacy policies of the services we use:
+• Google / Firebase: policies.google.com/privacy
+• Google Gemini: policies.google.com/privacy
+• RevenueCat: revenuecat.com/privacy
+• Apple App Store: apple.com/legal/privacy
+
+Peptyde is not responsible for the acts, omissions, errors, or data handling of any third-party service provider.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>10. Children's Privacy<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde is intended only for users who are 18 years or older.
+
+We do not knowingly collect personal information from anyone under 18.
+
+If we learn that we have collected information from someone under 18, we will delete it as required by applicable law.
+
+If you believe we have inadvertently collected information from a minor, please contact us at support@peptyde.app.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>11. Changes to This Policy<span class="chevron">›</span></summary>
+      <div class="body-text"><p>We may update this Privacy Policy from time to time.
+
+The current version will always be accessible within the App and at this page.
+
+If we make material changes, we will provide notice where required by law, such as through email, in-app notice, or website notice.
+
+Continued use of Peptyde after the effective date of an updated Privacy Policy means you accept the updated Privacy Policy, except where additional consent or authorisation is required by law.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>12. Contact Us<span class="chevron">›</span></summary>
+      <div class="body-text"><p>If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:
+
+Email: support@peptyde.app
+Website: peptyde.app</p></div>
+    </details>
+
+  </div>
+
+  <footer>
+    <span>© 2026 Peptyde. All rights reserved.</span>
+    <a href="terms.html">Terms of Service</a>
+    <a href="mailto:support@peptyde.app">support@peptyde.app</a>
+  </footer>
+
+</body>
+</html>

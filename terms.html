@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms of Service — Peptyde</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --gold:       #C49A2C;
+      --gold-soft:  #F5EDD4;
+      --text:       #37353E;
+      --muted:      #7C7880;
+      --dim:        #A8A4AC;
+      --line:       #E0E0E4;
+      --surface:    #EEEEEF;
+      --bg:         #FFFFFF;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 0 16px 80px;
+    }
+
+    /* ── Header ── */
+    .header {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 0 40px;
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 40px;
+    }
+
+    .logo-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .logo-pill {
+      background: var(--gold);
+      color: #fff;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      padding: 5px 14px;
+      border-radius: 999px;
+    }
+
+    .nav-link {
+      margin-left: auto;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .nav-link:hover { text-decoration: underline; }
+
+    h1 {
+      font-size: clamp(26px, 5vw, 36px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      margin-bottom: 10px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    /* ── Content ── */
+    .content {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    /* Accordion */
+    details {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      margin-bottom: 10px;
+      overflow: hidden;
+      transition: border-color 0.18s;
+    }
+
+    details[open] {
+      border-color: rgba(196,154,44,0.40);
+      box-shadow: 0 2px 14px rgba(196,154,44,0.08);
+    }
+
+    summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 15px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--muted);
+      user-select: none;
+      transition: background 0.12s, color 0.12s;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    details[open] summary {
+      color: var(--text);
+      font-weight: 600;
+      background: rgba(196,154,44,0.03);
+    }
+
+    .pip {
+      width: 3px;
+      height: 16px;
+      border-radius: 2px;
+      background: transparent;
+      flex-shrink: 0;
+      transition: background 0.18s;
+    }
+
+    details[open] .pip { background: var(--gold); }
+
+    .chevron {
+      margin-left: auto;
+      font-size: 16px;
+      color: var(--dim);
+      transition: transform 0.18s, color 0.18s;
+      flex-shrink: 0;
+    }
+
+    details[open] .chevron {
+      transform: rotate(90deg);
+      color: var(--gold);
+    }
+
+    .body-text {
+      padding: 0 18px 18px;
+      border-top: 1px solid var(--line);
+    }
+
+    .body-text p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 14px;
+      white-space: pre-wrap;
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: 760px;
+      margin: 48px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      font-size: 12px;
+      color: var(--dim);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      align-items: center;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; font-weight: 600; }
+    footer a:hover { text-decoration: underline; }
+
+    @media (max-width: 480px) {
+      .header { padding: 32px 0 28px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <div class="logo-row">
+      <span class="logo-pill">Peptyde</span>
+      <a class="nav-link" href="privacy.html">Privacy Policy →</a>
+    </div>
+    <h1>Terms of Service</h1>
+    <p class="meta">Last updated: May 2026</p>
+  </div>
+
+  <div class="content">
+
+    <details open>
+      <summary><span class="pip"></span>1. Acceptance of Terms<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde is owned and operated by Peptyde ("Peptyde," "we," "us," or "our").
+
+By downloading, accessing, creating an account, subscribing to, or using Peptyde, including any related services, content, features, or tools, you agree to be bound by these Terms of Service ("Terms") and our Privacy Policy.
+
+If you do not agree to these Terms, you must not use the App and must delete your account.
+
+You represent and warrant that you are at least 18 years old, have the legal capacity to enter into a binding agreement, are not prohibited from using the App under applicable law, and have read, understood, and agree to these Terms.
+
+We may update these Terms from time to time. Continued use of the App after updated Terms are posted constitutes acceptance of the updated Terms.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>2. Not Medical Advice<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde is an informational, educational, tracking, and organisational tool only.
+
+Nothing in the App — including any feature, output, content, calculation, estimate, AI response, educational summary, or dashboard — constitutes medical advice, diagnosis, treatment recommendation, dosing instruction, prescription guidance, or professional healthcare advice of any kind.
+
+You acknowledge and agree that:
+• Peptyde does not diagnose, treat, cure, or prevent any disease or medical condition.
+• Peptyde does not recommend substances, dosages, schedules, protocols, or treatment plans.
+• Peptyde does not sell, distribute, prescribe, or promote the purchase of any peptides, medications, or supplements.
+• Peptyde does not verify the safety, legality, purity, identity, dosage, or source of any substance you log or track.
+• You are solely responsible for consulting a qualified healthcare professional before making any health-related decision.
+• Use of the App is entirely at your own risk.
+
+All features — including inventory tracking, dose logging, injection site tracking, side effects tracking, hydration tracking, Research Library, and Pep Bot — are for informational and personal record-keeping purposes only.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>3. No Professional Relationship<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Use of the App does not create any physician-patient, healthcare provider-patient, pharmacist-patient, dietitian-client, trainer-client, or other professional relationship between you and Peptyde or any of our service providers.
+
+Peptyde is not designed for medical emergencies. If you believe you are experiencing a medical emergency, call your local emergency services immediately.
+
+Peptyde is not a "covered entity" or "business associate" under HIPAA or equivalent legislation. The App is not designed to store or process protected health information on behalf of a healthcare provider. You are discouraged from submitting sensitive medical information beyond what is necessary to use the App's tracking features.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>4. User Responsibility<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde is intended for personal, non-commercial use by adults 18 years of age or older.
+
+You are solely responsible for:
+• Any substances you choose to research, use, possess, administer, purchase, or track.
+• The accuracy of all data you enter into the App.
+• How you interpret or act on any information displayed in the App.
+• Any decision you make based on App content, outputs, calculations, estimates, AI responses, or educational content.
+• Compliance with all applicable laws and regulations in your jurisdiction.
+• Maintaining safe access to your device and account.
+• Consulting a qualified healthcare professional before making any health-related decision.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>5. Jurisdiction &amp; Legality<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Laws governing peptides, medications, research compounds, supplements, and controlled substances vary significantly by country, state, and locality.
+
+It is your sole responsibility to understand and comply with all applicable local, national, and international laws regarding any substance you research, possess, purchase, track, administer, or use.
+
+Peptyde makes no representation that any substance discussed, referenced, displayed, or described in the App is legal, safe, approved, or appropriate in your jurisdiction.
+
+References to peptides, compounds, or related products anywhere in the App are for informational and organisational purposes only and do not constitute endorsement, promotion, recommendation, medical advice, or a representation of legality.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>6. Assumption of Risk<span class="chevron">›</span></summary>
+      <div class="body-text"><p>You acknowledge that researching, tracking, possessing, administering, or using peptides, medications, research compounds, or related substances may involve known and unknown risks, including but not limited to:
+• Side effects and adverse reactions
+• Incorrect dosage or administration
+• Contamination, impurity, mislabeling, or counterfeit products
+• Drug interactions and contraindications
+• Infection or injury
+• Risks not currently identified in scientific literature
+• Serious injury or death
+
+You assume full responsibility for all decisions, actions, and outcomes arising from or related to any information obtained through the App.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>7. App Features &amp; Disclaimers<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Inventory &amp; Dose Logging
+Inventory entries and dose logs reflect only the information you enter. The App does not verify the contents, source, legality, purity, strength, or safety of any substance you log.
+
+Injection Site Tracker
+The body map and rotation indicators are visual organisational tools only. They do not provide guidance on injection technique, site selection, frequency, depth, sterility, or safety.
+
+Side Effects Tracking
+Symptom logs are user-entered records only. The App does not interpret, diagnose, evaluate, or warn you of medical conditions. If you experience concerning symptoms, contact a qualified healthcare professional.
+
+Hydration Tracking
+Hydration goals shown in the App are general estimates based on inputs you provide. They are not medical prescriptions.
+
+Research Library
+Peptide profiles and educational summaries are general informational references. They may be incomplete, outdated, or inaccurate. They do not constitute medical advice, treatment recommendations, or product endorsements.
+
+Pep Bot
+Pep Bot is an AI-powered educational feature. Messages may be sent to an AI provider to generate responses. Pep Bot responses are AI-generated educational content only and may be inaccurate, incomplete, outdated, or biased. Pep Bot is not a medical professional. You must independently verify any information before relying on it.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>8. Subscriptions &amp; Billing<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde Premium is an auto-renewing subscription available through the Apple App Store and Google Play Store.
+
+Pricing, trial availability, included features, billing periods, and subscription options may vary by platform and time of purchase. The price shown at checkout controls your purchase.
+
+iOS Subscribers: Payment is charged to your Apple ID at confirmation of purchase or upon expiration of any free trial. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current billing period. Manage subscriptions in your Apple Account Settings. Uninstalling the App does not cancel your subscription. Refunds are handled by Apple.
+
+Android Subscribers: Payment is charged to your Google Play account at confirmation of purchase or upon expiration of any free trial. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current billing period. Manage subscriptions in your Google Play account settings. Uninstalling the App does not cancel your subscription. Refunds are handled by Google.
+
+We may change subscription prices, included features, or billing options at any time. Where required, notice will be provided before changes apply to your subscription.
+
+We use RevenueCat to help manage subscriptions and entitlement status across platforms. RevenueCat does not process your full payment card information.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>9. Account Security<span class="chevron">›</span></summary>
+      <div class="body-text"><p>To access certain features of the App, you may need to create an account. You agree to provide accurate, current, and complete information during registration.
+
+You are solely responsible for:
+• Maintaining the confidentiality of your account credentials.
+• All activity that occurs under your account, whether or not authorised by you.
+• Notifying Peptyde immediately of any unauthorised use of your account.
+• Keeping your device and operating system secure.
+
+Peptyde is not liable for any loss, damage, or unauthorised access arising from your failure to safeguard your credentials or device.
+
+Modifying your device's operating system (including jailbreaking or rooting) may compromise the App's functionality and security. Peptyde disclaims all responsibility for issues resulting from such modifications.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>10. Prohibited Conduct<span class="chevron">›</span></summary>
+      <div class="body-text"><p>You agree not to:
+• Use the App for any unlawful, harmful, fraudulent, or unauthorised purpose.
+• Use the App to facilitate the illegal purchase, sale, or distribution of any substance.
+• Submit false, misleading, or inaccurate data.
+• Submit content or data that you do not have the right to submit.
+• Reverse engineer, decompile, scrape, copy, or extract the source code or data of the App.
+• Use automated tools, bots, or scripts to access or interact with the App.
+• Attempt unauthorised access to any account, system, or network.
+• Interfere with or disrupt the App or its servers.
+• Circumvent paywalls, subscription systems, or access controls.
+• Upload malware or harmful code.
+• Misuse AI features to generate unlawful, harmful, or unsafe instructions.
+• Violate any applicable law, regulation, or third-party right.
+
+We may suspend or terminate your access if we believe you have violated these Terms.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>11. Third-Party Services<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde integrates with or relies on third-party services, which may include:
+• Firebase / Google Cloud — authentication, data storage, infrastructure, and crash reporting.
+• Google Gemini — powers Pep Bot and AI features.
+• Apple App Store — handles iOS subscription billing and payments.
+• Google Play Store — handles Android subscription billing and payments.
+• RevenueCat — manages subscription status and entitlements.
+
+Each third-party service is governed by its own terms, policies, and practices. Peptyde is not responsible for the acts, omissions, errors, downtime, or availability of any third-party service.
+
+Peptyde is not liable for any loss, delay, interruption, missing data, failed purchase, inaccurate output, unavailable feature, or service disruption caused by any third-party system.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>12. User Content<span class="chevron">›</span></summary>
+      <div class="body-text"><p>You retain ownership of content you submit to the App, including tracking data, notes, and other inputs ("User Content").
+
+By submitting User Content, you grant Peptyde a worldwide, non-exclusive, royalty-free licence to host, store, reproduce, process, and display your User Content solely to operate, maintain, support, and provide the App.
+
+You represent and warrant that you own or have all necessary rights to submit your User Content, and that your User Content does not violate any law or third-party rights.
+
+Peptyde may remove or restrict access to User Content if we believe it violates these Terms or applicable law.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>13. Intellectual Property<span class="chevron">›</span></summary>
+      <div class="body-text"><p>The App, including its design, code, software, interface, features, content, trademarks, logos, and all related intellectual property, is owned by Peptyde or its licensors and is protected by applicable intellectual property laws.
+
+You may not copy, modify, distribute, sell, lease, sublicence, scrape, reverse engineer, or create derivative works from any part of the App unless expressly authorised by us in writing.
+
+All rights not expressly granted to you are reserved by Peptyde.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>14. Disclaimer of Warranties<span class="chevron">›</span></summary>
+      <div class="body-text"><p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, WHETHER EXPRESS, IMPLIED, STATUTORY, OR OTHERWISE.
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, PEPTYDE DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, RELIABILITY, AVAILABILITY, AND NON-INFRINGEMENT.
+
+PEPTYDE DOES NOT WARRANT THAT:
+• THE APP WILL BE ERROR-FREE, UNINTERRUPTED, SECURE, OR AVAILABLE.
+• APP OUTPUTS, AI RESPONSES, CALCULATIONS, ESTIMATES, OR EDUCATIONAL CONTENT WILL BE ACCURATE OR SUITABLE FOR YOU.
+• THE APP WILL MEET YOUR EXPECTATIONS OR REQUIREMENTS.
+• DEFECTS WILL BE CORRECTED.
+
+PEPTYDE MAKES NO REPRESENTATIONS OR WARRANTIES REGARDING THE SAFETY, LEGALITY, EFFICACY, PURITY, IDENTITY, OR AVAILABILITY OF ANY PEPTIDES, MEDICATIONS, OR PRODUCTS DISCUSSED, REFERENCED, OR TRACKED IN THE APP.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>15. Limitation of Liability<span class="chevron">›</span></summary>
+      <div class="body-text"><p>TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, PEPTYDE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF PROFITS, LOSS OF DATA, SERVICE INTERRUPTION, PERSONAL INJURY, OR OTHER INTANGIBLE LOSSES.
+
+THIS LIMITATION APPLIES TO DAMAGES ARISING FROM:
+• YOUR USE OF OR INABILITY TO USE THE APP.
+• ANY HEALTH OUTCOME, INJURY, ADVERSE EFFECT, OVERDOSE, UNDERDOSE, IMPROPER ADMINISTRATION, OR DEATH.
+• ANY SUBSTANCE YOU RESEARCH, POSSESS, PURCHASE, TRACK, ADMINISTER, OR USE.
+• RELIANCE ON ANY FEATURE, OUTPUT, ESTIMATE, AI RESPONSE, REPORT, OR EDUCATIONAL CONTENT.
+• LOSS OF DATA, SERVICE INTERRUPTIONS, OR ACCOUNT ACCESS ISSUES.
+• ACTS OR OMISSIONS OF ANY THIRD-PARTY SERVICE PROVIDER.
+
+TO THE FULLEST EXTENT PERMITTED BY LAW, OUR TOTAL CUMULATIVE LIABILITY TO YOU FOR ALL CLAIMS ARISING OUT OF OR RELATED TO THESE TERMS OR THE APP SHALL NOT EXCEED THE AMOUNT YOU PAID TO PEPTYDE IN THE TWELVE MONTHS PRECEDING THE CLAIM.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>16. Indemnification<span class="chevron">›</span></summary>
+      <div class="body-text"><p>You agree to defend, indemnify, and hold harmless Peptyde and its officers, directors, employees, contractors, agents, and partners from and against any and all claims, damages, losses, liabilities, costs, and expenses arising out of or relating to:
+• Your use of or access to the App.
+• Your violation of these Terms.
+• Your violation of any applicable law or third-party right.
+• Any substance you research, possess, purchase, track, administer, or use.
+• Any data, content, or photos you submit to the App.
+• Any health-related decisions or outcomes resulting from your use of the App.
+• Your fraud, negligence, wilful misconduct, or unauthorised activity.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>17. Changes &amp; Termination<span class="chevron">›</span></summary>
+      <div class="body-text"><p>Peptyde reserves the right, at any time and without notice or liability, to modify, suspend, replace, limit, remove, or discontinue any feature, functionality, service, or component of the App.
+
+We may suspend, restrict, or terminate your access to the App at any time if we believe you violated these Terms, violated applicable law, or your use creates risk for Peptyde, users, or third parties.
+
+Upon termination, your right to use the App ends immediately. Any active subscription must be cancelled through the Apple App Store or Google Play, as applicable.
+
+Sections relating to intellectual property, user content, disclaimers, limitation of liability, indemnification, and governing law survive termination.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>18. Governing Law<span class="chevron">›</span></summary>
+      <div class="body-text"><p>These Terms are governed by and construed in accordance with applicable law. Any legal action arising from these Terms shall be brought in the appropriate courts of competent jurisdiction.
+
+If any provision of these Terms is found to be invalid, illegal, or unenforceable, the remaining provisions will continue in full force and effect.
+
+Our failure to enforce any provision of these Terms does not constitute a waiver of that provision. Any waiver must be in writing.</p></div>
+    </details>
+
+    <details>
+      <summary><span class="pip"></span>19. Contact<span class="chevron">›</span></summary>
+      <div class="body-text"><p>If you have any questions about these Terms, please contact us:
+
+Email: support@peptyde.app
+Website: peptyde.app</p></div>
+    </details>
+
+  </div>
+
+  <footer>
+    <span>© 2026 Peptyde. All rights reserved.</span>
+    <a href="privacy.html">Privacy Policy</a>
+    <a href="mailto:support@peptyde.app">support@peptyde.app</a>
+  </footer>
+
+</body>
+</html>
